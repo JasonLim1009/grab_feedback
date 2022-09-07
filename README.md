@@ -15,5 +15,7 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
+*run
+flutter run --no-sound-null-safety
 
 ![This is an image]![green_grab](https://user-images.githubusercontent.com/107684179/185778004-442934a8-647e-4fd0-a3e7-4307c771eb51.jpg)
