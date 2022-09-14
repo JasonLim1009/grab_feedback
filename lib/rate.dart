@@ -86,7 +86,7 @@ class RateScreen extends StatelessWidget {
                         allowHalfRating: false,
                         onRated: (v) {},
                         starCount: 5,
-                        size: 40,
+                        size: 30,
                         isReadOnly: false,
                         spacing: kDefaultPadding,
                       ),
