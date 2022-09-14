@@ -21,7 +21,7 @@ class RideStats extends StatelessWidget {
         ),
         RideInfo(
           title: 'Time',
-          value: '15 min',
+          value: '6 min',
         ),
       ],
     );
