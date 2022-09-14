@@ -19,7 +19,10 @@ class MainButton extends StatelessWidget {
               fontSize: 18
           ),
         ),
-        SizedBox(height: kDefaultPadding),
+        SizedBox(
+          height: kDefaultPadding,
+          width: 5.0,
+        ),
         RoundedButton(
             icon: Icon(Icons.arrow_forward),
             iconColor: Colors.white,
