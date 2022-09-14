@@ -13,7 +13,18 @@ class AppHeader extends StatelessWidget {
       child: Container(
         width: double.infinity,
         height: 350.0,
-        color: kPrimaryColor,
+        decoration: const BoxDecoration(
+          gradient: LinearGradient(
+            colors: [
+              Color(0xFFe57373),
+              Color(0xFFef5350),
+              Color(0xFFf44336),
+              Color(0xFFe53935),
+              Color(0xFFd32f2f),
+            ],
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,)
+        ),
       ),
     );
   }
